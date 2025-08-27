@@ -1,0 +1,51 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f6; /* pink muda */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Style link global */
+a {
+  color: #d63384; /* pink cerah */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #b03060; /* pink lebih gelap */
+}
+
+/* Supaya main konten tidak terlalu nempel navbar */
+main {
+  padding: 20px 40px;
+}
+
+/* Heading global */
+h1, h2, h3, h4, h5 {
+  color: #d63384;
+  font-weight: bold;
+}
+
+/* Tombol umum */
+button {
+  background: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #b03060;
+}
