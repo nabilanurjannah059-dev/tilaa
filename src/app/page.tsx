@@ -156,7 +156,7 @@ export default function Home() {
       {/* Instagram */}
       <div style={{ textAlign: "center", marginTop: "40px" }}>
         <a
-          href="https://instagram.com/username" // ganti dengan username Instagram kamu
+          href="https://www.instagram.com/nabl014?utm_source=qr&igsh=MXRtMXk2dDlmcHB3aw=="
           target="_blank"
           rel="noopener noreferrer"
           style={{
