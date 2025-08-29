@@ -28,8 +28,8 @@ export default function Projects() {
             <Image
               src={p.img}
               alt={p.title}
-              width={400}   // atur sesuai kebutuhan
-              height={250}  // atur sesuai kebutuhan
+              width={400}  
+              height={250} 
               className={styles.cardImage}
             />
             <div className={styles.cardContent}>
@@ -42,3 +42,4 @@ export default function Projects() {
     </div>
   );
 }
+
